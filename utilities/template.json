@@ -1,0 +1,78 @@
+{
+	"general": {
+		"name": "Template",
+		"name_identifier": "template",
+		"banner_image": "banner.png (use local name in folder 'images/game_identifier/{banner_image_name}')",
+		"short_description": "A short tagline description of the game (possibly should be in a single line, single sentence).",
+		"long_description": "A longer description of the project.\nCan also have multiple lines with escaped newline characters."
+	},
+	"fact-sheet": {
+		"genre": "Genres (text)",
+		"release_date": "Relese date (text)",
+		"platforms_list": "Platforms (text)",
+		"storepage_link": "https://storepage.com",
+		"esbr_rating": "ESBR (text, e.g. 'Everyone')"
+	},
+	"features": {
+		"features_text_list": [
+			"Feature 1 (text, e.g. sentence)",
+			"Feature 2 (text, e.g. sentence)",
+			"..."
+		]
+	},
+	"trailer": {
+		"trailer_drive_link": "https://drive.google.com/file/d/...",
+		"trailer_mb_size": 0,
+		"trailer_youtube_video_embed_id": "youtube_video_id (text, to embed the video)"
+	},
+	"screenshots": [
+		{
+			"src": "screenshot1.jpg",
+			"large": false,
+			"additional_attributes": [
+				"style='...'",
+				"class='...'",
+				"..."
+			]
+		},
+		{
+			"src": "screenshhot2.png",
+			"large": true
+		}
+	],
+	"animated-gifs": [
+		{
+			"src": "gif1.gif",
+			"large": false
+		},
+		{
+			"src": "gif2.gif",
+			"large": true
+		}
+	],
+	"key-art-logos": [
+		{
+			"src": "logo1.jpg",
+			"large": false
+		},
+		{
+			"src": "logo2.jpg",
+			"large": true
+		}
+	],
+	"png-logos": [
+		{
+			"src": "logo1.png",
+			"large": false
+		},
+		{
+			"src": "logo2.png",
+			"large": true
+		}
+	],
+	"all-images": {
+		"all_images_folder_drive_link": "https://drive.google.com/drive/folders/...",
+		"all_images_zip_file_drive_link": "https://drive.google.com/file/d/...",
+		"all_iages_zip_file_mb_size": 0
+	}
+}

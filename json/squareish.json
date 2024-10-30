@@ -1,0 +1,149 @@
+{
+	"general": {
+		"name": "SQUAREISH",
+		"name_identifier": "squareish",
+		"banner_image": "squareish_banner.png",
+		"short_description": "A puzzle platformer where you squish down to jump.",
+		"long_description": "SQUAREISH is a minimalist puzzle platformer where you control a cute little square that can squish down to get through narrow passages or squish back up to jump.\nSolve puzzles to collect pixels in 35+ colorful levels with gravity portals, lever switches, pushable boxes, teleports, spikes, pressure plates, sliding doors, and hidden secrets!"
+	},
+	"fact-sheet": {
+		"genre": "Puzzle Platformer",
+		"release_date": "01 October 2023",
+		"platforms_list": "Windows, Mac, Linux, Web",
+		"storepage_link": "https://oddeyes.itch.io/squareish",
+		"esbr_rating": "Everyone"
+	},
+	"features": {
+		"features_text_list": [
+			"35+ colorful puzzle platformer levels to unlock and explore",
+			"Minimalist single-room hand-crafted puzzles",
+			"Gravity portals, lever switches, pushable boxes, teleports, spikes, pressure plates, sliding doors",
+			"Secrets hidden in multiple levels",
+			"Progressively more challenging single-player puzzles",
+			"No time limits, no enemies, no lives - just you and the puzzles",
+			"Cute little square character with a unique jump mechanic",
+			"Original soundtrack",
+			"Play the entire game for free in your browser"
+		]
+	},
+	"trailer": {
+		"trailer_drive_link": "https://drive.google.com/file/d/1x2_InqNolfXmwNBoqe5cw5LGa5dF-p28/view?usp=drive_link",
+		"trailer_mb_size": 33,
+		"trailer_youtube_video_embed_id": "ET89MrplV80"
+	},
+	"screenshots": [
+		{
+			"src": "/images/squareish/other_images/screenshot_01.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/other_images/screenshot_02.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/other_images/screenshot_03.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/other_images/screenshot_04.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/other_images/screenshot_05.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/other_images/screenshot_06.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/other_images/screenshot_07.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/other_images/screenshot_08.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/other_images/screenshot_09.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/other_images/levels_background.png",
+			"large": false
+		}
+	],
+	"animated-gifs": [
+		{
+			"src": "/images/squareish/other_images/gif_01.gif",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/other_images/gif_02.gif",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/other_images/gif_03.gif",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/other_images/gif_04.gif",
+			"large": false
+		}
+	],
+	"key-art-logos": [
+		{
+			"src": "/images/squareish/promo_images/squareish_coverart_rainbowlevels.png",
+			"large": true
+		},
+		{
+			"src": "/images/squareish/promo_images/squareish_square_icon_background.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/promo_images/squareish_square_logo_simple_background.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/promo_images/squareish_logo_payload_background_1920x1080.png",
+			"large": true
+		},
+		{
+			"src": "/images/squareish/promo_images/squareish_gamescrenshots_collage.png",
+			"large": true
+		}
+	],
+	"png-logos": [
+		{
+			"src": "/images/squareish/promo_images/squareish_logo_square_nopayload_transparent.png",
+			"large": true,
+			"additional_attributes": [
+				"style='padding: 10px 0'"
+			]
+		},
+		{
+			"src": "/images/squareish/promo_images/squareish_logo_square_rainbowoutline.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/promo_images/squareish_square_icon_transparent.png",
+			"large": false,
+			"additional_attributes": [
+				"class='image-section-half-size'"
+			]
+		},
+		{
+			"src": "/images/squareish/promo_images/squareish_logo_nopayload_transparent.png",
+			"large": false
+		},
+		{
+			"src": "/images/squareish/promo_images/squareish_logo_rainbowoutline.png",
+			"large": false
+		}
+	],
+	"all-images": {
+		"all_images_folder_drive_link": "https://drive.google.com/drive/folders/1PQZWk5oAoUS3bGrOl8Ec26XcbYRgfLAk?usp=drive_link",
+		"all_images_zip_file_drive_link": "https://drive.google.com/file/d/1gnKwd8Bm2BOqyfgDX3NmPw6D0l_u_Eov/view?usp=drive_link",
+		"all_iages_zip_file_mb_size": 17
+	}
+}
