@@ -25,7 +25,7 @@ body {
 	width: 45em;
 	text-align: center;
 	/* background-color: #ff0000; */
-	padding: 2em;
+	padding: 2em 0em;
 	padding-bottom: 4em;
 	box-sizing: border-box;
 }
