@@ -17,6 +17,91 @@ body {
 	margin: 0;
 	padding: 0;
 }
+#links-tree {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 0.875em;
+	width: 45em;
+	text-align: center;
+	/* background-color: #ff0000; */
+	padding: 2em;
+	padding-bottom: 4em;
+	box-sizing: border-box;
+}
+#links-tree > .img-container {
+	margin-bottom: 1.5em;
+}
+.link-container {
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 1em;
+	border-radius: 10px;
+	border: 2px solid #e0e0e060;
+	padding: 0.5em 0.75em;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #e0e0e0;
+	height: 4.5em;
+	position: relative;
+}
+.link-container:hover {
+	opacity: 0.8;
+	outline: 4px solid #e0e0e030;
+	transform: scale(1.025);
+}
+.link-container:active {
+	opacity: 1;
+	outline: 4px solid #e0e0e0;
+}
+.link-container.thumbnail-link {
+	height: fit-content;
+	padding: 0;
+	overflow: hidden;
+}
+.link-container .link-name {
+	font-size: 1.05em;
+}
+.link-container.thumbnail-link > .link-name {
+	position: absolute;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	bottom: 0;
+	width: 100%;
+	height: 10em;
+	padding-bottom: 0.751em;
+	font-size: 1.3em;
+	background: linear-gradient(transparent, #151515);
+}
+.link-container:not(.thumbnail-link) > img {
+	height: 2.75em;
+	width: 2.75em;
+	aspect-ratio: 1 / 1;
+	width: auto;
+	margin: 0;
+	margin-right: 0.5em;
+	border-radius: 1000vh;
+}
+.link-container.thumbnail-link > img {
+	width: 100%;
+	height: auto;
+}
+.right-arrow {
+	/* Style the div like a right arrow */
+	border-top: 0.75em solid transparent;
+	border-bottom: 0.75em solid transparent;
+	border-left: 0.75em solid #e0e0e0;
+	margin-left: 0.75em;
+	margin-right: 0.675em;
+	margin-left: 2em;
+}
+.link-container.thumbnail-link > .right-arrow {
+	display: none;
+}
 #page-content {
 	/* background-color: #00ff0040; */
 	width: calc(100% - 15px * 2);

@@ -1,7 +1,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
 
-	// On click on any .section-title, get the parent's id and move to the location's hash
+	// On click on any .section-title, get the parent's ID and move to the location's hash
 	var sectionTitles = document.querySelectorAll('.section-title');
 	sectionTitles.forEach(function (sectionTitle) {
 		sectionTitle.addEventListener('click', function () {
