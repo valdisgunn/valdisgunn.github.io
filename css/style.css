@@ -63,7 +63,7 @@ body {
 	overflow: hidden;
 }
 .link-container .link-name {
-	font-size: 1.05em;
+	font-size: 1.1em;
 }
 .link-container.thumbnail-link > .link-name {
 	position: absolute;
@@ -374,6 +374,10 @@ a:hover {
 }
 @media screen and (max-width: 1100px) {
 	#links-tree {
-		font-size: calc(0.875 * 100vw / 45);
+		font-size: calc(0.875 * 100vw / 35);
+		width: 35em;
+	}
+	.link-container .link-name {
+		font-size: 1.25em;
 	}
 }
