@@ -52,6 +52,7 @@ body {
 	opacity: 0.8;
 	outline: 4px solid #e0e0e030;
 	transform: scale(1.025);
+	transition: 0.1s ease-in-out transform;
 }
 .link-container:active {
 	opacity: 1;
