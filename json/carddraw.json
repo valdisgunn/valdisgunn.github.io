@@ -63,7 +63,27 @@
 			"large": false
 		},
 		{
-			"src": "/images/carddraw/other_images/screenshot_09.png",
+			"src": "/images/carddraw/other_images/screenshot_09.jpg",
+			"large": false
+		},
+		{
+			"src": "/images/carddraw/other_images/screenshot_10.png",
+			"large": false
+		},
+		{
+			"src": "/images/carddraw/other_images/screenshot_11.jpg",
+			"large": false
+		},
+		{
+			"src": "/images/carddraw/other_images/screenshot_12.jpg",
+			"large": false
+		},
+		{
+			"src": "/images/carddraw/other_images/screenshot_13.jpg",
+			"large": false
+		},
+		{
+			"src": "/images/carddraw/other_images/screenshot_14.jpg",
 			"large": false
 		}
 	],
@@ -87,7 +107,47 @@
 	],
 	"key-art-logos": [
 		{
-			"src": "images/carddraw/promo_images/steam_header_capsule_920x430.jpg",
+			"src": "images/carddraw/promo_images/card_draw_keyart_01_1920x1080.jpg",
+			"large": false
+		},
+		{
+			"src": "images/carddraw/promo_images/card_draw_keyart_02_1920x1080.jpg",
+			"large": false
+		},
+		{
+			"src": "images/carddraw/promo_images/card_draw_keyart_03_1920x1080.jpg",
+			"large": false
+		},
+		{
+			"src": "images/carddraw/promo_images/card_draw_keyart_04_1920x1080.jpg",
+			"large": false
+		},
+		{
+			"src": "images/carddraw/promo_images/card_draw_keyart_05_1920x1080.jpg",
+			"large": false
+		},
+		{
+			"src": "images/carddraw/promo_images/card_draw_keyart_06_1920x1080.jpg",
+			"large": false
+		},
+		{
+			"src": "images/carddraw/promo_images/card_draw_keyart_07_1920x1080.jpg",
+			"large": false
+		},
+		{
+			"src": "images/carddraw/promo_images/card_draw_keyart_08_1920x1080.jpg",
+			"large": false
+		},
+		{
+			"src": "images/carddraw/promo_images/steam_header_capsule_920x430_v1.jpg",
+			"large": false
+		},
+		{
+			"src": "images/carddraw/promo_images/steam_header_capsule_920x430_v3.jpg",
+			"large": false
+		},
+		{
+			"src": "images/carddraw/promo_images/steam_header_capsule_920x430_v2.jpg",
 			"large": false
 		},
 		{
@@ -99,7 +159,15 @@
 			"large": false
 		},
 		{
-			"src": "images/carddraw/promo_images/steam_small_capsule_462x174.jpg",
+			"src": "images/carddraw/promo_images/steam_page_bagkrdound_1438x810.jpg",
+			"large": true
+		},
+		{
+			"src": "images/carddraw/promo_images/steam_small_capsule_462x174_v1.jpg",
+			"large": false
+		},
+		{
+			"src": "images/carddraw/promo_images/steam_small_capsule_462x174_v2.jpg",
 			"large": false
 		},
 		{
@@ -117,10 +185,6 @@
 		{
 			"src": "images/carddraw/promo_images/steam_vertical_capsule_748x896.jpg",
 			"large": false
-		},
-		{
-			"src": "images/carddraw/promo_images/steam_page_bagkrdound_1438x810.jpg",
-			"large": true
 		},
 		{
 			"src": "images/carddraw/promo_images/steam_library_hero_3840x1240.jpg",

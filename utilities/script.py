@@ -86,7 +86,8 @@ def json_to_html(data):
 				if "additional_attributes" in image:
 					for attr_text in image["additional_attributes"]:
 						additional_attributes += attr_text + ' '
-				images_list += f'<img src="{image["src"]}" alt="{alt_text}" {additional_attributes} />'
+				img_name = image["src"].split('/')[-1].split('.')[0]
+				images_list += f'<img src="{image["src"]}" alt="{alt_text}" {additional_attributes} title="{img_name}"/>'
 				added_in_row += 1
 				if added_in_row >= 2 or image['large']:
 					close_row = True
@@ -186,10 +187,10 @@ def main(game_identifier):
 if __name__ == '__main__':
 	if len(sys.argv) < 2 or sys.argv[1] == '-h' or sys.argv[1] == '--help' or sys.argv[1] == '-help':
 		print("\nUSAGE:")
-		print("\tpython script.py main")
-		print("\t\nUpdates the game in the main page (index.html) of the website.")
-		print("\tpython script.py <game_identifier>")
-		print("\t\tGenerates the HTML page for the game with the given identifier.")
+		print("\t> python script.py main")
+		print("\t  Updates the games in the main page (main.html) of the website (for when I add a new game to the list of my gaems on the website).")
+		print("\t> python script.py <game_identifier>")
+		print("\t  Generates the HTML page for the game with the given identifier.")
 		sys.exit(1)
 	game_identifier = sys.argv[1]
 	main(game_identifier)
